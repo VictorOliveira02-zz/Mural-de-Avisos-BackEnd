@@ -20,7 +20,6 @@ router.use(function (req, res, next) {
     next();
 });
 
-
 router.get('/all', (req, res) => {
     res.send(posts.getAll());
 })
@@ -38,4 +37,5 @@ router.delete('/delete', (req, res) => {
     posts.deletePost(idItem);
     res.send(`idPost ${idItem} Delete!`);
 })
+
 module.exports = router;
