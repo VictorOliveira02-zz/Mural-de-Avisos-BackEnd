@@ -3,7 +3,8 @@ const app = express();
 
 const apiRoute = require('./routes/api');
 
-const PORT = "https://mural-de-avisos-back-end.vercel.app/"
+//const PORT = 5000;
+const PORT = "https://mural-de-avisos-back-end.vercel.app"
 app.listen(PORT, () => {
     console.log('Server is running on port', PORT);
 })

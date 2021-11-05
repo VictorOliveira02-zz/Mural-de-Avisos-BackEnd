@@ -5,7 +5,8 @@ router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
 const accessibleUrl = {
-    origin: 'https://mural-de-avisos-omega.vercel.app/',
+    //origin: 'http://localhost:3000',
+    origin: 'https://mural-de-avisos-omega.vercel.app',
 }
 router.use(cors(accessibleUrl));
 
