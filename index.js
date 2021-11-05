@@ -6,6 +6,6 @@ const apiRoute = require('./routes/api');
 app.use(cors());
 
 
-app.listen(process.env.PORT || 5000)
+app.listen("https://mural-de-avisos-backend.herokuapp.com")
 
 app.use('/api', apiRoute);
