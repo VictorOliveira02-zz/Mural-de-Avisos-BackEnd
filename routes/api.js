@@ -4,10 +4,7 @@ const cors = require('cors');
 router.use(express.json());
 router.use(express.urlencoded({ extended: true }));
 
-const accessibleUrl = {
-    origin: 'http://localhost:3000',
-}
-router.use(cors(accessibleUrl));
+router.use(cors());
 
 const posts = require('../model/posts');
 
