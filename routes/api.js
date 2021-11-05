@@ -20,6 +20,10 @@ router.use(function (req, res, next) {
     next();
 });
 
+router.get('/', (req, res) => {
+    res.send("TESTE");
+})
+
 router.get('/all', (req, res) => {
     res.send(posts.getAll());
 })

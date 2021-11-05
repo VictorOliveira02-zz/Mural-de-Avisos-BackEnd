@@ -8,21 +8,21 @@
   ],
   "routes": [
     {
-      "src": "/api/all",
+      "src": "/all",
       "dest": "/index.js",
       "methods": [
         "GET"
       ]
     },
     {
-      "src": "/api/new",
+      "src": "/new",
       "dest": "/index.js",
       "methods": [
         "POST"
       ]
     },
     {
-      "src": "/api/delete",
+      "src": "/delete",
       "dest": "/index.js",
       "methods": [
         "DELETE"
