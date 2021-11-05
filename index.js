@@ -6,9 +6,6 @@ const apiRoute = require('./routes/api');
 app.use(cors());
 
 
-const PORT = 5000;
-app.listen(PORT, () => {
-    console.log('Server is running on port', PORT);
-})
+app.listen(process.env.PORT || 5000)
 
 app.use('/api', apiRoute);
