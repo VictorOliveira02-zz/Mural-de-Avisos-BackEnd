@@ -8,10 +8,6 @@ router.use(cors());
 
 const posts = require('../model/posts');
 
-router.get('/', (req, res) => {
-    res.send("TESTE");
-})
-
 router.get('/all', (req, res) => {
     res.send(posts.getAll());
 })
