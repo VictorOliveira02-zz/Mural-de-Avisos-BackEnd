@@ -7,8 +7,8 @@
 
 ## 📋 Repositórios
 
-* [Front-End](https://github.com/VictorOliveira02/Mural-de-Avisos) - Demo: https://mural-de-avisos-omega.vercel.app/
-* [Back-End](https://github.com/VictorOliveira02/Mural-de-Avisos-BackEnd)
+* [Front-End](https://github.com/VictorOliveira02/Mural-de-Avisos) - Demo na Vercell: https://mural-de-avisos-omega.vercel.app/
+* [Back-End](https://github.com/VictorOliveira02/Mural-de-Avisos-BackEnd) - Demo no Heroku: https://mural-de-avisos-backend.herokuapp.com/api/all
 
 ## 🛠️ Ferramentas
 
